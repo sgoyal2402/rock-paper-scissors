@@ -1,0 +1,19 @@
+.game-part1 img{
+    opacity: 0.5;
+}
+
+.out{
+    cursor: pointer;
+}
+
+.game-part1 img:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.03);
+    transition-duration: 100ms;
+    
+}
+
+.winner{
+    box-shadow: 0 0 0 40px hsla(189, 59%, 53%,0.2), 0 0 0 80px hsla(189, 59%, 53%,0.15), 0 0 0 130px hsla(189, 59%, 53%,0.1);
+}
